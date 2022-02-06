@@ -5,5 +5,28 @@
   margin: 0 0 10px;
 }
 
+.product{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.image-bottom{
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  display: none;
+}
+
+.view-more{
+  max-width: 1440px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
 @use 'footer';
 /*# sourceMappingURL=main.css.map */
