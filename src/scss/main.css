@@ -4,6 +4,9 @@
   height: 294.39px;
   margin: 0 0 10px;
 }
+.image-container{
+  clip-path: url(#myClip)
+}
 
 .product{
   display: flex;
@@ -22,11 +25,21 @@
 
 .view-more{
   max-width: 1440px;
-  width: 100%;
+  width: 800px;
+  height: 40px;
   text-align: center;
-  margin: 0 auto;
-  
+  margin: 20px auto;
+  padding-top: 10px;
+  font-weight: bold;
+  border: 2px solid;
 }
+
+.view-more:hover{
+  background-color: black;
+  color: white;
+}
+
+
 
 @use 'footer';
 /*# sourceMappingURL=main.css.map */
