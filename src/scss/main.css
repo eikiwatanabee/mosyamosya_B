@@ -1,2 +1,9 @@
+@use 'scss/header';
+.image-container {
+  width: 294.39px;
+  height: 294.39px;
+  margin: 0 0 10px;
+}
 
+@use 'footer';
 /*# sourceMappingURL=main.css.map */
