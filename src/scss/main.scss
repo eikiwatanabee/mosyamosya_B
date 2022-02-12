@@ -1,7 +1,14 @@
-@use 'header'  as header;
+// @use'scss/header';
 
+@mixin image {
+  width: 294.39px;
+  height: 294.39px;
+  margin: 0 0 10px;
+}
 
-
+.image-container{
+  @include image;
+}
 
 
 

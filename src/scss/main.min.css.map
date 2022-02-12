@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["main.min.css","_footer.scss"],"names":[],"mappings":"AAAA,GCAA,mBACI,CADJ,mBACI,CADJ,YACI,CAAA,6BACA,CADA,4BACA,CADA,uBACA,CADA,mBACA,CAAA,wBACA,CADA,qBACA,CADA,6BACA","file":"main.min.css"}
+=======
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAQA,iBALE,cAAA,CACA,eAAA,CACA,eAAA","file":"main.min.css"}
+>>>>>>> 07a5d23956c52ade3b14135a4d3074405a714d62
