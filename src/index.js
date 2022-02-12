@@ -24,3 +24,11 @@ $(function() {
 
 // }
 
+const image = document.getElementById("image-bottom");
+const view = document.getElementById("view-more");
+
+view.addEventListener("click", function() {
+  image.style.display = "flex";
+  view.style.display = "none";
+
+}, false);
