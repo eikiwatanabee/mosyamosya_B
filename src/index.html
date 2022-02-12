@@ -6,11 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="scss/main.css" />
-  </head>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
   <body>
     <!-- ここからえいき -->
-
+    
+    <div class="body-wrapper">
+    <header>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+      
+      <nav class="globalMenuSp">
+        <ul>
+          <li><a href="sub_html/productspage.html">PRODUCTS</a></li>
+          <li><a href="sub_html/aboutpage.html">ABOUT</a></li>
+          <li><a href="sub_html/company.html">COMPANY</a></li>
+          <li><a href="sub_html/contactpage.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>    
     <!-- ここからかずき -->
     <div class="product">
       <div class="products">
@@ -29,6 +46,8 @@
           <div class="right">
             <a href="#" class="btnarrow4">詳細</a>
           </div>
+      
+        
         </div>
         <p></p>
         <p></p>
@@ -139,34 +158,18 @@
           <p></p>
         </div>
       </div>
+      
+        
     </div>
-
-    <!-- ここから切り抜き -->
-    <!-- <svg
-      width="305"
-      height="295"
-      viewBox="0 0 305 295"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <clipPath id="myClip">
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M171.853 15.5872L162 0L146.812 24.0272L132.5 0L100.795 53.225L83 13L52.8431 81.1688L34 41L0.225037 113H23.1229L0.894897 169H28.2072L7.19171 209H23.8469L5.45001 273.75H117.321L105.196 294.75H275.803L254.153 257.25H286.053L278.017 210.75H283.574L275.472 196.024L271.666 174H271.985L271.546 173.305L267 147L264.406 162.01L249.072 137.75H304.44L268.5 50L258.653 74.0417L224.5 18L207.167 46.4417L172.5 15L171.853 15.5872ZM250.232 85.5L252.95 87.9656L253.96 85.5H250.232ZM250.919 240.057L250.928 240H250.899L250.919 240.057ZM225.974 174L226.069 174.344L226.194 174H225.974Z"
-          fill="#C4C4C4"
-        />
-      </clipPath>
-    </svg> -->
-
     <p id="view-more" class="view-more">view more</p>
-    <div class="button">
+    <p class="select-button">1</p>
+    <!-- <p id="select-button" class="select-button">2</p> -->
+    <a href="index2.html" class="select-button">2</a>
 
-      <p class="select-button">1</p>
-      <!-- <p id="select-button" class="select-button">2</p> -->
-      <a href="index2.html" class="select-button">2</a>
-    </div>
+  </div>  
+  
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
