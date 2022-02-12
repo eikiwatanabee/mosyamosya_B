@@ -7,10 +7,10 @@ $(function() {
 
       if ($(this).hasClass('active')) {
           $('.globalMenuSp').addClass('active');
-          $('.body-wrapper').addClass('active');
+          $('.mordal').addClass('active');
       } else {
           $('.globalMenuSp').removeClass('active');
-          $('.body-wrapper').removeClass('active');
+          $('.mordal').removeClass('active');
       }
   });
 });
