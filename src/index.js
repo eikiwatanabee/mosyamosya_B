@@ -1,5 +1,19 @@
-'use strict'
 
+'use strict'
+//ハンバーガーメニューです
+$(function() {
+  $('.hamburger').click(function() {
+      $(this).toggleClass('active');
+
+      if ($(this).hasClass('active')) {
+          $('.globalMenuSp').addClass('active');
+          $('.body-wrapper').addClass('active');
+      } else {
+          $('.globalMenuSp').removeClass('active');
+          $('.body-wrapper').removeClass('active');
+      }
+  });
+});
 // for( const i = 0; i < 11; i++){
 //   let member = 
 //    `<div class = "image-container">`

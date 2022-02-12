@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <!-- ここからえいき -->
 
-    <!-- ここからかずき -->
-    <div class="product">
-        <div class="products">
+<body>
+    <div class="body-wrapper">
+        <!-- ここからえいき -->
+        <header>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="globalMenuSp">
+                <ul>
+                    <li><a href="sub_html/productspage.html">PRODUCTS</a></li>
+                    <li><a href="sub_html/aboutpage.html">ABOUT</a></li>
+                    <li><a href="sub_html/company.html">COMPANY</a></li>
+                    <li><a href="sub_html/contactpage.html">CONTACT</a></li>
+                </ul>
+            </nav>       
+        </header>            
 
             <img class="image-container" src="img 2/item1.jpg" alt="item1">
             <p></p>
             <p></p>
-        </div>
+      
         <div class="products">
 
             <img class="image-container" src="img 2/item2.jpg" alt="item2">
@@ -89,17 +103,19 @@
           </div>
       </div>
         
-    </div>
+    
     <p id="view-more" class="view-more">view more</p>
     <p class="select-button">1</p>
     <!-- <p id="select-button" class="select-button">2</p> -->
     <a href="index2.html" class="select-button">2</a>
 
+  </div>  
+
 
     
     
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
